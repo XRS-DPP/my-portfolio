@@ -1,0 +1,16 @@
+/* appy to the entire website */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  background-color: rgb(193, 221, 245);
+}
+
+html {
+  scroll-behavior: smooth;
+}
