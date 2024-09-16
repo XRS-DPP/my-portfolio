@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import AppLayout from "../layouts/AppLayout";
-import Header from "./components/Header";
+
 function App() {
   return (
     <>

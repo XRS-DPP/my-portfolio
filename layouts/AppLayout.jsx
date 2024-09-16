@@ -6,7 +6,7 @@ const AppLayout = () => {
     <>
       <div>
         <Header />
-        <main className="flex justify-center">
+        <main>
           <Outlet />
         </main>
       </div>
