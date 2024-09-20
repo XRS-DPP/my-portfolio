@@ -1,5 +1,5 @@
 const Modal = ({ children }) => {
-  return <div className="absolute w-full h-[10%] border ">{children}</div>;
+  return <div className="absolute w-[80%] h-screen ">{children}</div>;
 };
 
 export default Modal;

@@ -1,11 +1,26 @@
+import { getSkillIcon } from "../utils/iconMap.js";
+import javascriptIcon from "../assets/skillsIcons/javascript.svg";
+import SkillCard from "./SkillCard.jsx";
+import SectionHeader from "./SectionHeader.jsx";
+
 const Skills = () => {
+  const skills = {
+    fontEnd: ["javascript", "html", "css", "react", "nodejs", "express"],
+    backEnd: ["Express", "NodeJS", "Javascript", "MongoDB", "PostGresql"],
+    miscellaneous: ["Git", "GitHub", "Figma", "Miro"],
+  };
+
   return (
     <>
-      <div className="flex flex-row items-center">
-        <h1 className="text-[16px] ">Skills</h1>
-        <div className="flex flex-grow h-[1px] bg-slate-500 ml-3"></div>
+      <SectionHeader title="Skills" />
+      <div>
+        <h2>Front-end</h2>
+        <ol>
+          {skills.fontEnd.map((skill, index) => (
+            <li key={index}>{skill}</li>
+          ))}
+        </ol>
       </div>
-      <div>Languages</div>
     </>
   );
 };

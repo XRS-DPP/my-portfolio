@@ -1,10 +1,25 @@
 {
   "data": [
     {
+      "id": 4,
+      "name": "Dress Smart (In Progress)",
+      "created_at": "2024-8-5",
+      "description": "A unqiue, user-friendly app that combines real-time weather forecasting with personal wardrobe suggestions.",
+      "technologies": [
+        "Typescript",
+        "React",
+        "Tailwind",
+        "Google-api",
+        "Weather-api"
+      ],
+      "githubUrl": "",
+      "liveUrl": ""
+    },
+    {
       "id": 1,
       "name": "NC NEWS API Backend",
       "created_at": "2024-4-10",
-      "description": "A RESTful API for NC NEWS, built with Node.js, Express,js, and PostgreSQL led by Test Driven Development using Jest, which provides endpoints to retrive articles, to post & delete comments, and to update votes on articles, ",
+      "description": "a RESTful API for NC NEWS, developed using Node.js, Express.js, and PostgreSQL, following Test-Driven Development (TDD) principles with Jest. The API provides several endpoints to facilitate various functionalities, including retrieving articles, posting and deleting comments, and updating article votes",
       "technologies": ["Javascript", "Express", "PostgreSQL", "Jest"],
       "githubUrl": "https://github.com/Xiaoru-Sun/nc-news-backend",
       "liveUrl": "https://project-nc-news-xiaoru-sun.onrender.com/api"
@@ -21,31 +36,17 @@
 
     {
       "id": 3,
-      "name": "Trailblaze",
+      "name": "Trailblaze Social Exercise App",
       "created_at": "2024-5-22",
-      "description": "A social exercise app where users can record exercises, set challenges for self and against friends",
+      "description": "A social exercise app where users can record exercises, set challenges for themselves and against friends",
       "technologies": ["ReactNative", "Javascript", "MongoDB", "Express"],
       "githubUrl": "https://github.com/Xiaoru-Sun/trailblaze-api-prod",
       "liveUrl": ""
     },
-    {
-      "id": 4,
-      "name": "Dress Smart (In Progress)",
-      "created_at": "2024-8-5",
-      "description": "A unqiue, user-friendly app that combines real-time weather forecasting with personal wardrobe suggestions.",
-      "technologies": [
-        "Typescript",
-        "React",
-        "Tailwind",
-        "google-api",
-        "weather-api"
-      ],
-      "githubUrl": "",
-      "liveUrl": ""
-    },
+
     {
       "id": 5,
-      "name": "Portofolio Website",
+      "name": "My Portofolio Website",
       "created_at": "2024-9-15",
       "description": "Responsive portofolio website that showcase my projects and a little about me",
       "technologies": ["Javascript", "React", "HTML", "CSS", "Tailwind"],

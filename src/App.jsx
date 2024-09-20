@@ -3,7 +3,8 @@ import styles from "./App.module.css";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
-import AppLayout from "../layouts/AppLayout";
+import AppLayout from "./layouts/AppLayout";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/project" element={<Project />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
           </Route>
           {/* <Route path="*" element={<Error />} /> */}
           {/* <Header /> */}

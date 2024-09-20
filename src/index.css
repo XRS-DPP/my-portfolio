@@ -3,15 +3,39 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 12px;
+  margin-top: 2rem;
+}
+::-webkit-scrollbar-track {
+  background: #f3f2f2;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 12px;
+  border: 3px solid #f1f1f1;
+}
+
 * {
   box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0;
-  font-family: "Outfit", Arial, Helvetica, sans-serif;
-  /* background-color: rgb(193, 221, 245); */
-  background-color: whitesmoke;
 }
 
 html {
   scroll-behavior: smooth;
 }
+/* 
+@media screen and (min-width: 850px) {
+  .personal-info {
+    flex-direction: column;
+  }
+  .content {
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contentWrapper {
+    width: 40%;
+  }
+} */
