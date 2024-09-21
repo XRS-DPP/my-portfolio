@@ -1,10 +1,10 @@
 const Language = () => {
   return (
-    <div className="mt-5 flex flex-wrap items-center justify-between font-RobotoSlab">
+    <div className="lg:mt-8 mt-5 flex flex-wrap items-center justify-between font-RobotoSlab">
       <span className="flex items-center justify-start ">
         I speak <strong className="ml-[2px] mr-[2px]">English</strong>
         <img
-          className="w-[20px] inline mx-1"
+          className="w-[20px] inline mr-1"
           src="/countryIcons/uk.png"
           alt="FR"
         />

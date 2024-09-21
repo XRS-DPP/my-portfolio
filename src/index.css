@@ -23,19 +23,3 @@
 html {
   scroll-behavior: smooth;
 }
-/* 
-@media screen and (min-width: 850px) {
-  .personal-info {
-    flex-direction: column;
-  }
-  .content {
-    margin-top: 20px;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contentWrapper {
-    width: 40%;
-  }
-} */
