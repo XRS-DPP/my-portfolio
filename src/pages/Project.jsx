@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 const Project = () => {
   return (
     <>
-      <div className="mt-[50px] w-[80%]">
+      <div className="md:mt-[80px] mt-10 w-[80%]">
         <SectionHeader title="Project" />
         <div className="flex flex-col items-center justify-evenly">
           {projects.data.map((project, index) => (

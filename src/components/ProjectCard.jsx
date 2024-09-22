@@ -8,10 +8,21 @@ const ProjectCard = ({ project }) => {
       <p className="mt-4 font-semibold text-gray-700 text-[14px] opacity-90 ">
         {project.technologies.join(" ")}
       </p>
-      <button className="text-[14px] font-semibold text-blue-800 mt-4 mr-3 hover:bg-blue-300 p-2 hover:text-white transform hover:scale-110 ">
+      <button
+        onClick={() => {
+          window.open(project.githubUrl), "_blank";
+        }}
+        disabled={project.githubUrl.length}
+        className="text-[14px] font-semibold text-blue-800 mt-4 mr-3 hover:bg-blue-300 p-2 hover:text-white transform hover:scale-110 "
+      >
         VIEW CODE
       </button>
-      <button className="text-[14px] font-semibold text-blue-800 mt-4 mr-3 hover:bg-blue-300 p-2 hover:text-white transform hover:scale-110 ">
+      <button
+        onClick={() => {
+          window.open(project.liveUrl), "_blank";
+        }}
+        className="text-[14px] font-semibold text-blue-800 mt-4 mr-3 hover:bg-blue-300 p-2 hover:text-white transform hover:scale-110 "
+      >
         SEE LIVE
       </button>
     </div>

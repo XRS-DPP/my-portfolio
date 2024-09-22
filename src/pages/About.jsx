@@ -9,11 +9,11 @@ const About = () => {
   };
 
   return (
-    <div className="lg:mt-10 lg:w-[50%] mt-6 h-screen w-[80%]">
+    <div className="md:mt-[80px] lg:w-[50%] mt-10 h-screen w-[80%]">
       <Fade direction="up" duration={1000}>
         <SectionHeader title="About me" />
         <div className="mt-3 py-2 my-4 font-RobotoSlab">
-          <p className="indent-6">
+          <p className="indent-6 md:mt-5">
             I’ve always seen language as the key to unraveling the mysteries of
             civilizations and uncovering hidden wisdom . I encountered
             JavaScript while searching for a way to automate tasks at my
@@ -35,8 +35,8 @@ const About = () => {
             dishes.
           </p>
         </div>
-        <button className="lg:mt-5" onClick={() => sendEmail()}>
-          <span className="text-[19px] tracking-[.25em] font-sans py-3 bg-transparent font-medium hover:px-4 hover:bg-green-800 hover:text-white ">
+        <button className="md:mt-5" onClick={() => sendEmail()}>
+          <span className="text-[19px] tracking-[.25em] font-sans py-3 bg-transparent font-medium hover:px-4 hover:bg-green-800 hover:text-white hover: rounded-lg ">
             CONTACT
           </span>
         </button>
