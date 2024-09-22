@@ -27,8 +27,10 @@ const Greeting = () => {
           <div className="mt-3 w-full h-full flex flex-col items-center justify-between">
             <h2>
               <span className="text-[19px] font-RobotoSlab font-semibold mb-6">
-                Hello, I'am{" "}
-                <span className="text-[24px] text-green-800">Xiaoru Sun</span>
+                Hello, I'am
+                <span className="text-[28px] text-green-800 ml-2">
+                  Xiaoru Sun
+                </span>
               </span>
             </h2>
             <div className="mt-5">
