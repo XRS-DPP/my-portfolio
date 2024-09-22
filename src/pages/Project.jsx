@@ -1,5 +1,4 @@
 import projects from "../../data/project_data.json";
-import Header from "../components/Header";
 import ProjectCard from "../components/ProjectCard";
 import SectionHeader from "../components/SectionHeader";
 import { Fade } from "react-awesome-reveal";

@@ -1,6 +1,3 @@
-import { getSkillIcon } from "../utils/iconMap.js";
-import javascriptIcon from "../assets/skillsIcons/javascript.svg";
-import SkillCard from "./SkillCard.jsx";
 import SectionHeader from "./SectionHeader.jsx";
 
 const Skills = () => {

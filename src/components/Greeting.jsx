@@ -1,6 +1,4 @@
 import AvatarMaker from "../assets/img.svg";
-import { getImageUrl } from "../utils/utils";
-import SectionHeader from "./SectionHeader";
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import { FaLinkedin } from "react-icons/fa";
@@ -25,33 +23,35 @@ const Greeting = () => {
           ></img>
         </div>
 
-        <div className="p-4 mt-3 flex flex-col items-center">
+        <div className="p-4 mt-3 mb-5 flex flex-col items-center">
           <div className="mt-3 w-full h-full flex flex-col items-center justify-between">
             <h2>
               <span className="text-[19px] font-RobotoSlab font-semibold mb-6">
                 Hello, I'am{" "}
-                <span className="text-[24px] text-green-900">Xiaoru Sun</span>
+                <span className="text-[24px] text-green-800">Xiaoru Sun</span>
               </span>
             </h2>
-            <p className="mt-2">
-              I am a
-              <span className="indent-3">
-                <Typewriter
-                  options={{
-                    strings: ["Full stack programmer", "board gamer lover"],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              </span>
-            </p>
-            <p className="pl-10 mt-6">
+            <div className="mt-5">
+              <Typewriter
+                options={{
+                  strings: [
+                    "<span>A junior<strong class='ml-2 px-2 py-2 bg-green-100'>Full-Stack Developer</strong></span>",
+                    "<span>A career <strong class='text-pink-800 py-3 px-1'>Changer</strong></span>",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  wrapperClassName: "text-[20px]",
+                }}
+              />
+            </div>
+
+            <p className="pl-10 mt-5 text-[14px]">
               I love creating algorithms in JavaScript, transforming designs
               into interactive experiences, and tackling bugs head-on.
             </p>
           </div>
 
-          <div className="flex mt-6 pl-5">
+          <div className="flex pl-5 mt-10">
             <button
               className="font-medium text-[16px] mr-4 my-2 flex items-center"
               onClick={() => openLinkedin()}
@@ -75,17 +75,8 @@ const Greeting = () => {
               <FaArrowUpRightFromSquare />
               <span className="ml-1">More About Me</span>
             </Link>
-
-            {/* <Link
-              to="/about"
-              className="text-[16px] my-2 font-sans font-semibold border-2px text-green-800 mt-8 hover:bg-green-800 hover: p-2 hover:text-white transform hover:scale-110 "
-            >
-              MORE ABOUT ME
-            </Link> */}
           </div>
         </div>
-
-        <div></div>
       </section>
     </>
   );

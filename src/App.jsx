@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import styles from "./App.module.css";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
-import Contact from "./pages/Contact";
 import AppLayout from "./layouts/AppLayout";
 import About from "./pages/About";
 
@@ -14,7 +13,7 @@ function App() {
           <Route element={<AppLayout />}>
             <Route path="/" element={<Home />} />
             <Route path="/project" element={<Project />} />
-            <Route path="/contact" element={<Contact />} />
+            {/* <Route path="/contact" element={<Contact />} /> */}
             <Route path="/about" element={<About />} />
           </Route>
           {/* <Route path="*" element={<Error />} /> */}
