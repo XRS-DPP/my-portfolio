@@ -20,51 +20,6 @@ const Navbar = () => {
   //   };
   // }, []);
 
-  // const navItemsClass = "font-bold text-sm px-2 py-1 rounded-lg";
-  // const NavLinks = (
-  //   <>
-  //     <Link to="/">
-  //       Home
-  //     </Link>
-  //     <Link className={navItemsClass} to="/project">
-  //       Project
-  //     </Link>
-  //     <Link className={navItemsClass} to="/about">
-  //       About
-  //     </Link>
-  //     <a className={navItemsClass}>Resume</a>
-  //   </>
-  // );
-  // return (
-  //   <>
-  //     <nav className="fixed w-full">
-  //       <div className="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8">
-  //         <div className="flex items-baseline justify-between h-12">
-  //           <div className="w-full flex items-baseline justify-between">
-  //             <div className="hidden md:block">{NavLinks}</div>
-
-  //             <div className="md:hidden">
-  //               <button onClick={() => toggleMenu()} type="button">
-  //                 <GiHamburgerMenu
-  //                   className={`${isMenuOpen ? "hidden" : "visible"}`}
-  //                 />
-  //                 <RxCross2
-  //                   className={`${isMenuOpen ? "visible" : "hidden"} `}
-  //                 />
-  //               </button>
-  //             </div>
-  //           </div>
-  //         </div>
-  //       </div>
-  //       {isMenuOpen && (
-  //         <div className="mt-3 flex flex-col gap-y-2 md:hidden px-4 sm:px-6 pb-2 ml-6 ">
-  //           {NavLinks}
-  //         </div>
-  //       )}
-  //     </nav>
-  // </>
-
-  // );
   return (
     <>
       <nav className={`overflow-hidden ${isMenuOpen ? "relative" : ""}`}>
@@ -73,7 +28,9 @@ const Navbar = () => {
             isMenuOpen ? "float-none block text-left" : "text-center"
           } float-left block px-[14px] py-[16px] font-RobotoSlab hover:bg-slate-300 text-[18px] font-medium`}
           to="/"
-          onClick={() => setIsMenuOpen(false)}
+          onClick={() => {
+            setIsMenuOpen(false);
+          }}
         >
           Home
         </Link>
@@ -97,14 +54,21 @@ const Navbar = () => {
           >
             About
           </Link>
-          <a
+          <button
             className={`${
               isMenuOpen ? "float-none block text-left" : "text-center"
             }float-left block  px-[14px] py-[16px] font-RobotoSlab text-[18px] font-medium hover:bg-slate-300`}
-            onClick={() => setIsMenuOpen(false)}
+            target="_blank"
+            onClick={() => {
+              window.open(
+                "https://docs.google.com/document/d/17NnCa4snFFWJkOfaA_wqFlHuWedcmV3AZArBl8V3IJU/edit?usp=sharing",
+                "_blank"
+              );
+              setIsMenuOpen(false);
+            }}
           >
             Resume
-          </a>
+          </button>
         </div>
 
         <a

@@ -31,21 +31,20 @@ const Greeting = () => {
                 <span className="text-[24px] text-green-800">Xiaoru Sun</span>
               </span>
             </h2>
-            <p className="mt-5">
-              <span>
-                <Typewriter
-                  options={{
-                    strings: [
-                      "<span>A junior<strong class='ml-2 px-2 py-2 bg-green-100'>Full-Stack Developer</strong></span>",
-                      "<span>A career <strong class='text-pink-800 py-3 px-1'>Changer</strong></span>",
-                    ],
-                    autoStart: true,
-                    loop: true,
-                    wrapperClassName: "text-[20px]",
-                  }}
-                />
-              </span>
-            </p>
+            <div className="mt-5">
+              <Typewriter
+                options={{
+                  strings: [
+                    "<span>A junior<strong class='ml-2 px-2 py-2 bg-green-100'>Full-Stack Developer</strong></span>",
+                    "<span>A career <strong class='text-pink-800 py-3 px-1'>Changer</strong></span>",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  wrapperClassName: "text-[20px]",
+                }}
+              />
+            </div>
+
             <p className="pl-10 mt-5 text-[14px]">
               I love creating algorithms in JavaScript, transforming designs
               into interactive experiences, and tackling bugs head-on.

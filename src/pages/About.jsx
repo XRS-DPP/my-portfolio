@@ -7,7 +7,7 @@ const About = () => {
     window.location = "mailto: xrs_project@gmail.com";
   };
   return (
-    <div className="lg:mt-10 lg:w-[70%] mt-6 h-screen w-[80%]">
+    <div className="lg:mt-10 lg:w-[50%] mt-6 h-screen w-[80%]">
       <SectionHeader title="About me" />
       <div className="mt-3 py-2 my-4 font-RobotoSlab">
         <p>
@@ -31,12 +31,12 @@ const About = () => {
           dishes.
         </p>
       </div>
-      <button onClick={() => sendEmail()}>
+      <button className="lg:mt-5" onClick={() => sendEmail()}>
         <span className="text-[19px] tracking-[.25em] font-sans py-3 bg-transparent font-semibold hover:px-4 hover:bg-green-800 hover:text-white ">
           CONTACT
         </span>
       </button>
-      <Language />
+      {/* <Language /> */}
     </div>
   );
 };
