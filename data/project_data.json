@@ -12,7 +12,7 @@
         "Google-api",
         "Weather-api"
       ],
-      "githubUrl": "",
+      "githubUrl": "https://github.com/Xiaoru-Sun/dress-smart-fe",
       "liveUrl": ""
     },
     {
@@ -51,7 +51,7 @@
       "description": "Responsive portfolio website that showcases my projects and a little about me",
       "technologies": ["Javascript", "React", "HTML", "CSS", "Tailwind"],
       "githubUrl": "https://github.com/Xiaoru-Sun/XiaoruSun",
-      "liveUrl": ""
+      "liveUrl": "https://xiaoru-sun.netlify.app/"
     }
   ]
 }

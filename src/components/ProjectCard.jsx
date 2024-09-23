@@ -18,10 +18,15 @@ const ProjectCard = ({ project }) => {
         VIEW CODE
       </button>
       <button
+        disabled={!project.liveUrl}
         onClick={() => {
-          window.open(project.liveUrl), "_blank";
+          window.open(project.liveUrl, "_blank");
         }}
-        className="text-[14px] font-semibold text-blue-800 mt-4 mr-3 hover:bg-blue-300 p-2 hover:text-white transform hover:scale-110 "
+        className={`${
+          project.liveUrl
+            ? "bg-white hover:bg-blue-300 p-2 hover:text-white transform hover:scale-110"
+            : "text-gray-600 p-2"
+        } text-[14px] font-semibold text-blue-800 mt-4 mr-3 }`}
       >
         SEE LIVE
       </button>
