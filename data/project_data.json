@@ -48,7 +48,7 @@
       "id": 5,
       "name": "My Portofolio Website",
       "created_at": "2024-9-15",
-      "description": "Responsive portofolio website that showcases my projects and a little about me",
+      "description": "Responsive portfolio website that showcases my projects and a little about me",
       "technologies": ["Javascript", "React", "HTML", "CSS", "Tailwind"],
       "githubUrl": "https://github.com/Xiaoru-Sun/XiaoruSun",
       "liveUrl": ""
