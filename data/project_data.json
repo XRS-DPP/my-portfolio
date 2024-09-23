@@ -4,7 +4,7 @@
       "id": 4,
       "name": "Dress Smart (In Progress)",
       "created_at": "2024-8-5",
-      "description": "A unqiue, user-friendly app that combines real-time weather forecasting with personal wardrobe suggestions",
+      "description": "An unique, user-friendly app that combines real-time weather forecasting with personal wardrobe suggestions",
       "technologies": [
         "Typescript",
         "React",
@@ -46,7 +46,7 @@
 
     {
       "id": 5,
-      "name": "My Portofolio Website",
+      "name": "My Portfolio Website",
       "created_at": "2024-9-15",
       "description": "Responsive portfolio website that showcases my projects and a little about me",
       "technologies": ["Javascript", "React", "HTML", "CSS", "Tailwind"],
