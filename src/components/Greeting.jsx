@@ -14,12 +14,12 @@ const Greeting = () => {
   };
   return (
     <>
-      <section className="mt-10 w-full flex flex-wrap items-center justify-center font-RobotoSlab ">
+      <section className="md:flex-col md:mt-20 mt-10 w-full flex flex-wrap items-center justify-center font-RobotoSlab ">
         <div className="">
           <img
             src={AvatarMaker}
             alt="portfolio image"
-            className="rounded-[20%] px-4"
+            className="rounded-[20%] px-4 md:p-4"
           ></img>
         </div>
 
@@ -33,7 +33,7 @@ const Greeting = () => {
                 </span>
               </span>
             </h2>
-            <div className="mt-5">
+            <div className="mt-6">
               <Typewriter
                 options={{
                   strings: [
@@ -47,7 +47,7 @@ const Greeting = () => {
               />
             </div>
 
-            <p className="pl-10 mt-5 text-[14px]">
+            <p className="pl-10 mt-8 text-[14px]">
               I love creating algorithms in JavaScript, transforming designs
               into interactive experiences, and tackling bugs head-on.
             </p>

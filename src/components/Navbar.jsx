@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,12 +13,6 @@ const Navbar = () => {
       // document.body.style.overflow = "hidden";
     }
   }
-
-  // useEffect(() => {
-  //   return function cleanup() {
-  //     return (document.body.style.overflow = "");
-  //   };
-  // }, []);
 
   return (
     <>
