@@ -1,36 +1,32 @@
-import AvatarMaker from "../assets/img.svg";
-import { Link } from "react-router-dom";
-import Typewriter from "typewriter-effect";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import AvatarMaker from '../assets/img.svg';
+import { Link } from 'react-router-dom';
+import Typewriter from 'typewriter-effect';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 const Greeting = () => {
   const openLinkedin = () =>
-    window.open("https://www.linkedin.com/in/xiaoru-s-42664160/");
+    window.open('https://www.linkedin.com/in/xiaoru-s-42664160/');
 
   const openGithub = () => {
-    window.open("https://github.com/Xiaoru-Sun");
+    window.open('https://github.com/Xiaoru-Sun');
   };
   return (
     <>
       <section className="md:flex-col md:mt-20 mt-10 w-full flex flex-wrap items-center justify-center font-RobotoSlab ">
-        <div className="">
-          <img
-            src={AvatarMaker}
-            alt="portfolio image"
-            className="rounded-[20%] px-4 md:p-4"
-          ></img>
-        </div>
+        <img
+          src={AvatarMaker}
+          alt="portfolio image"
+          className="rounded-[20%] px-4 md:p-4"
+        ></img>
 
         <div className="p-4 mt-3 mb-5 flex flex-col items-center">
           <div className="mt-3 w-full h-full flex flex-col items-center justify-between">
             <h2>
               <span className="text-[19px] font-RobotoSlab font-semibold mb-6">
                 Hello, I'am
-                <span className="text-[28px] text-green-800 ml-2">
-                  Xiaoru Sun
-                </span>
+                <span className="text-[28px] text-green-800 ml-2">Camille</span>
               </span>
             </h2>
             <div className="mt-6">
@@ -42,7 +38,7 @@ const Greeting = () => {
                   ],
                   autoStart: true,
                   loop: true,
-                  wrapperClassName: "text-[20px]",
+                  wrapperClassName: 'text-[20px]',
                 }}
               />
             </div>
@@ -75,7 +71,7 @@ const Greeting = () => {
               className="font-medium text-[16px] mr-4 my-2 flex items-center"
             >
               <FaArrowUpRightFromSquare />
-              <span className="ml-1">More About Me</span>
+              <span className="ml-1">About Me</span>
             </Link>
           </div>
         </div>

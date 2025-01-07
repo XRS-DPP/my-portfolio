@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="flex flex-grow h-[1px] bg-slate-500"></div>
       </div>
       <p className="mt-4">
-        <span>© 2024 • </span>Built with care by Xiaoru Sun.
+        <span>© 2024 • </span>Built with care by Camille
       </p>
     </section>
   );
