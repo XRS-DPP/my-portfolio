@@ -5,7 +5,7 @@ import { Fade } from 'react-awesome-reveal';
 
 const About = () => {
   const sendEmail = () => {
-    window.location = 'mailto: suncamille1@gmail.com';
+    window.location = 'mailto: camilledpp.work@gmail.com';
   };
 
   return (
