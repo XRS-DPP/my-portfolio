@@ -19,20 +19,20 @@
 
     {
       "id": 2,
-      "name": "NC NEWS Web",
+      "name": "Snap NEWS Web",
       "created_at": "2024-5-13",
       "description": "A reddit-like website that allows users to browse news articles by topic, to comment and delete their comments on articles, and vote/downvote on articles",
       "technologies": ["React", "Javascript", "HTML", "CSS", "Tailwind"],
-      "githubUrl": "https://github.com/Xiaoru-Sun/nc-news",
-      "liveUrl": "https://xrs-news.netlify.app/ "
+      "githubUrl": "https://github.com/Xiaoru-Sun/snap-news-web",
+      "liveUrl": "https://snapsnap-news.netlify.app"
     },
     {
       "id": 1,
-      "name": "NC NEWS API Backend",
+      "name": "Snap NEWS API Backend",
       "created_at": "2024-4-10",
       "description": "A RESTful API for NC NEWS, developed using Node.js, Express.js, and PostgreSQL, following Test-Driven Development (TDD) principles with Jest. The API provides several endpoints to facilitate various functionalities, including retrieving articles, posting and deleting comments, and updating article votes",
       "technologies": ["Javascript", "Express", "PostgreSQL", "Jest"],
-      "githubUrl": "https://github.com/Xiaoru-Sun/nc-news-backend",
+      "githubUrl": "https://github.com/Xiaoru-Sun/snap-news-backend",
       "liveUrl": "https://project-nc-news-xiaoru-sun.onrender.com/api"
     },
 
@@ -52,8 +52,8 @@
       "created_at": "2024-9-15",
       "description": "Responsive portfolio website that showcases my projects and a little about me",
       "technologies": ["Javascript", "React", "HTML", "CSS", "Tailwind"],
-      "githubUrl": "https://github.com/Xiaoru-Sun/XiaoruSun",
-      "liveUrl": "https://xiaoru-sun.netlify.app/"
+      "githubUrl": "https://github.com/Xiaoru-Sun/my-portfolio",
+      "liveUrl": "https://camille-dpp.netlify.app"
     }
   ]
 }
