@@ -1,11 +1,11 @@
-import React from "react";
-import SectionHeader from "../components/SectionHeader";
-import Language from "../components/Language";
-import { Fade } from "react-awesome-reveal";
+import React from 'react';
+import SectionHeader from '../components/SectionHeader';
+import Language from '../components/Language';
+import { Fade } from 'react-awesome-reveal';
 
 const About = () => {
   const sendEmail = () => {
-    window.location = "mailto: xrs_project@gmail.com";
+    window.location = 'mailto: suncamille1@gmail.com';
   };
 
   return (
