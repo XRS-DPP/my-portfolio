@@ -43,13 +43,20 @@ Node.js: Minimum version v20.18.1
 ## **Contributing**
 If you have a suggestion that would make this better, please fork the repo and create a pull request. Thanks!
 1. Fork the repository
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+2. Create your Feature Branch
+   ```sh
+   git checkout -b feature/AmazingFeature
+   ```
 3. Make your changes
-4. Write tests to cover your changes
-5. Run the tests to ensure they pass
-6. Commit your changes (git commit -m 'Add some AmazingFeature')
-7. Push your changes to the branch(git push origin feature/AmazingFeature)
-8. Submit a pull request
+4. Commit your changes
+   ```sh
+   git commit -m 'Add some AmazingFeature'
+   ```
+5. Push your changes to the branch
+   ```sh
+   git push origin feature/AmazingFeature)
+   ```
+6. Submit a pull request
 
 Node.js: Minimum version v20.18.1
 
