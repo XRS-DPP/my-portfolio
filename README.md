@@ -1,10 +1,11 @@
 ## My Portfolio
-An app that showcase a little about me and my projects.
+An app that showcases a bit about me and my projects.
 
 ## __Link To the Hosted Version__
 [camille-dpp.netlify.app](https://camille-dpp.netlify.app/)
 
 ## __Introduction__:
+Welcome to my portfolio! This app highlights who I am, the skills I’ve developed, and the projects I’ve worked on. It serves as a personal introduction and a showcase of my work.
 
 
 ## Getting Started
