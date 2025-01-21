@@ -1,7 +1,7 @@
 ## My Portfolio
 An app that showcases a bit about me and my projects.
 
-## __Link To the Hosted Version__
+## __Link to the hosted version__
 [camille-dpp.netlify.app](https://camille-dpp.netlify.app/)
 
 ## __Introduction__
