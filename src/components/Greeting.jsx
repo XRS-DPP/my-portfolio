@@ -50,13 +50,13 @@ const Greeting = () => {
           </div>
 
           <div className="flex pl-5 mt-10">
-            <button
+            {/* <button
               className="font-medium text-[16px] mr-4 my-2 flex items-center"
               onClick={() => openLinkedin()}
             >
               <FaLinkedin />
               <span className="ml-1"> Linkedin</span>
-            </button>
+            </button> */}
 
             <button
               className="font-medium text-[16px] mr-4 my-2 flex items-center"
