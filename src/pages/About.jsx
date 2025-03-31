@@ -1,6 +1,4 @@
-import React from 'react';
 import SectionHeader from '../components/SectionHeader';
-import Language from '../components/Language';
 import { Fade } from 'react-awesome-reveal';
 
 const About = () => {
