@@ -15,7 +15,6 @@ const Language = () => {
         <img
           className="w-[20px] inline mr-1"
           src="/countryIcons/cn.png"
-          y6
           alt="CN"
         />
       </span>
